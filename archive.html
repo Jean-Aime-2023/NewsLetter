@@ -1,0 +1,555 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NewsLetter</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bowlby+One&family=Inter:wght@100;200;300&family=Lato:wght@300&family=Mulish:wght@300;400;500&family=Nunito+Sans:wght@300;400;600&family=Open+Sans:wght@300;500&family=Oswald&family=Poppins&family=Roboto:wght@400;500;700;900&family=Wix+Madefor+Display&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./index.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+</head>
+<body>
+    <div class="container">
+        <nav>
+            <h2 style="cursor: pointer;"> <a href="index.html">The Hours</a></h2>
+         <ul>
+            <li> <a href="index.html">Home</a> </li>
+            <li> <a href="archive.html">Archive</a> </li>
+            <li> <a href="subscribe.html">Subscription</a> </li>
+         </ul>
+         <div class="search">
+            <i class="bi bi-search"></i>
+            <input type="text" placeholder="Search">
+         </div>
+
+         <div class="icon">
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-list" viewBox="0 0 16 16">
+                <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z"/>
+            </svg>
+         </div>
+       </nav>
+
+       <div class="all">
+        <div class="list1">
+            <ul>
+               <li><a href="#">News</a></li>
+               <li><a href="#politics">Politics</a></li>
+               <li><a href="#security">Security</a></li>
+               <li><a href="#entertainment">Entertainment</a></li>
+               <li><a href="#health">Health</a></li>
+               <li><a href="#education">Education</a></li>
+            </ul>
+          </div>
+
+   
+          <div class="cards">
+            <h2 class="title" id="politics">Politics</h2>
+            <div class="card">
+               <img src="./images/protests.jpg" alt="protests1">
+               <div class="cont">
+                   <div class="div1">
+                       <div style="display: flex; flex-direction:row;width: 15rem;">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-person-fill" viewBox="0 0 16 16">
+                                <path d="M3 14s-1 0-1-1 1-4 6-4 6 3 6 4-1 1-1 1H3Zm5-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6Z"/>
+                            </svg>
+                            <p>Mar 22 . 1 min</p>
+                       </div>
+
+                       <svg style="margin-left: -7rem; cursor:pointer" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-three-dots-vertical" viewBox="0 0 16 16">
+                           <path d="M9.5 13a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0zm0-5a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0zm0-5a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0z"/>
+                       </svg>
+                   </div>
+                   <h2>Women's Day March <br> changed the game</h2>
+                   <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores iure provident aspernatur laborum ut dolor, officiis voluptatem commodi consequuntur beatae!</p>
+   
+                   <hr>
+   
+                   <div class="comments" style="padding-top: 15px;">   
+                        
+                    <div style="display: flex; width: 48%;">
+                        <p>0 views</p>
+                        <p>0 comments</p>
+                    </div>
+
+                    <div style="margin-left: 9rem;">
+                        <p>6</p>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" style="color:red;cursor:pointer" class="bi bi-heart" viewBox="0 0 16 16">
+                            <path d="m8 2.748-.717-.737C5.6.281 2.514.878 1.4 3.053c-.523 1.023-.641 2.5.314 4.385.92 1.815 2.834 3.989 6.286 6.357 3.452-2.368 5.365-4.542 6.286-6.357.955-1.886.838-3.362.314-4.385C13.486.878 10.4.28 8.717 2.01L8 2.748zM8 15C-7.333 4.868 3.279-3.04 7.824 1.143c.06.055.119.112.176.171a3.12 3.12 0 0 1 .176-.17C12.72-3.042 23.333 4.867 8 15z"/>
+                        </svg>
+                    </div>
+                   </div>
+               </div>
+            </div>
+
+
+            <div class="card">
+                <img src="./images/pro1.jpg" alt="protests1">
+                <div class="cont">
+                    <div class="div1">
+                        <div style="display: flex; flex-direction:row;width: 15rem;">
+                             <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-person-fill" viewBox="0 0 16 16">
+                                 <path d="M3 14s-1 0-1-1 1-4 6-4 6 3 6 4-1 1-1 1H3Zm5-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6Z"/>
+                             </svg>
+                             <p>Mar 22 . 1 min</p>
+                        </div>
+ 
+                        <svg style="margin-left: -7rem; cursor:pointer" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-three-dots-vertical" viewBox="0 0 16 16">
+                            <path d="M9.5 13a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0zm0-5a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0zm0-5a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0z"/>
+                        </svg>
+                    </div>
+                    <h2>Let's talk a social reform</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores iure provident aspernatur laborum ut dolor, officiis voluptatem commodi consequuntur beatae!</p>
+    
+                    <hr>
+    
+                    <div class="comments" style="padding-top: 15px;">   
+                         
+                     <div style="display: flex; width: 48%;">
+                         <p>0 views</p>
+                         <p>0 comments</p>
+                     </div>
+ 
+                     <div style="margin-left: 9rem;">
+                         <p>6</p>
+                         <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" style="color:red;cursor:pointer" class="bi bi-heart" viewBox="0 0 16 16">
+                             <path d="m8 2.748-.717-.737C5.6.281 2.514.878 1.4 3.053c-.523 1.023-.641 2.5.314 4.385.92 1.815 2.834 3.989 6.286 6.357 3.452-2.368 5.365-4.542 6.286-6.357.955-1.886.838-3.362.314-4.385C13.486.878 10.4.28 8.717 2.01L8 2.748zM8 15C-7.333 4.868 3.279-3.04 7.824 1.143c.06.055.119.112.176.171a3.12 3.12 0 0 1 .176-.17C12.72-3.042 23.333 4.867 8 15z"/>
+                         </svg>
+                     </div>
+                    </div>
+                </div>
+             </div>
+
+
+             <div class="card">
+                <img src="./images/election.jpg" alt="protests1">
+                <div class="cont">
+                    <div class="div1">
+                        <div style="display: flex; flex-direction:row;width: 15rem;">
+                             <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-person-fill" viewBox="0 0 16 16">
+                                 <path d="M3 14s-1 0-1-1 1-4 6-4 6 3 6 4-1 1-1 1H3Zm5-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6Z"/>
+                             </svg>
+                             <p>Mar 22 . 1 min</p>
+                        </div>
+ 
+                        <svg style="margin-left: -7rem; cursor:pointer" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-three-dots-vertical" viewBox="0 0 16 16">
+                            <path d="M9.5 13a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0zm0-5a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0zm0-5a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0z"/>
+                        </svg>
+                    </div>
+                    <h2>France Elections</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores iure provident aspernatur laborum ut dolor, officiis voluptatem commodi consequuntur beatae!</p>
+    
+                    <hr>
+    
+                    <div class="comments" style="padding-top: 15px;">   
+                         
+                     <div style="display: flex; width: 48%;">
+                         <p>0 views</p>
+                         <p>0 comments</p>
+                     </div>
+ 
+                     <div style="margin-left: 9rem;">
+                         <p>6</p>
+                         <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" style="color:red;cursor:pointer" class="bi bi-heart" viewBox="0 0 16 16">
+                             <path d="m8 2.748-.717-.737C5.6.281 2.514.878 1.4 3.053c-.523 1.023-.641 2.5.314 4.385.92 1.815 2.834 3.989 6.286 6.357 3.452-2.368 5.365-4.542 6.286-6.357.955-1.886.838-3.362.314-4.385C13.486.878 10.4.28 8.717 2.01L8 2.748zM8 15C-7.333 4.868 3.279-3.04 7.824 1.143c.06.055.119.112.176.171a3.12 3.12 0 0 1 .176-.17C12.72-3.042 23.333 4.867 8 15z"/>
+                         </svg>
+                     </div>
+                    </div>
+                </div>
+             </div>
+
+
+             <div class="card">
+                <img src="./images/police.jpg" alt="protests1">
+                <div class="cont">
+                    <div class="div1">
+                        <div style="display: flex; flex-direction:row;width: 15rem;">
+                             <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-person-fill" viewBox="0 0 16 16">
+                                 <path d="M3 14s-1 0-1-1 1-4 6-4 6 3 6 4-1 1-1 1H3Zm5-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6Z"/>
+                             </svg>
+                             <p>Mar 22 . 1 min</p>
+                        </div>
+ 
+                        <svg style="margin-left: -7rem; cursor:pointer" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-three-dots-vertical" viewBox="0 0 16 16">
+                            <path d="M9.5 13a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0zm0-5a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0zm0-5a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0z"/>
+                        </svg>
+                    </div>
+                    <h2>Protests in Europe</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores iure provident aspernatur laborum ut dolor, officiis voluptatem commodi consequuntur beatae!</p>
+    
+                    <hr>
+    
+                    <div class="comments" style="padding-top: 15px;">   
+                         
+                     <div style="display: flex; width: 48%;">
+                         <p>0 views</p>
+                         <p>0 comments</p>
+                     </div>
+ 
+                     <div style="margin-left: 9rem;">
+                         <p>6</p>
+                         <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" style="color:red;cursor:pointer" class="bi bi-heart" viewBox="0 0 16 16">
+                             <path d="m8 2.748-.717-.737C5.6.281 2.514.878 1.4 3.053c-.523 1.023-.641 2.5.314 4.385.92 1.815 2.834 3.989 6.286 6.357 3.452-2.368 5.365-4.542 6.286-6.357.955-1.886.838-3.362.314-4.385C13.486.878 10.4.28 8.717 2.01L8 2.748zM8 15C-7.333 4.868 3.279-3.04 7.824 1.143c.06.055.119.112.176.171a3.12 3.12 0 0 1 .176-.17C12.72-3.042 23.333 4.867 8 15z"/>
+                         </svg>
+                     </div>
+                    </div>
+                </div>
+             </div>
+
+
+             <h2 class="title" id="security">Security</h2>
+
+             <div class="card">
+                <img src="./images/air.png" alt="protests1">
+                <div class="cont">
+                    <div class="div1">
+                        <div style="display: flex; flex-direction:row;width: 15rem;">
+                             <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-person-fill" viewBox="0 0 16 16">
+                                 <path d="M3 14s-1 0-1-1 1-4 6-4 6 3 6 4-1 1-1 1H3Zm5-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6Z"/>
+                             </svg>
+                             <p>Mar 22 . 1 min</p>
+                        </div>
+ 
+                        <svg style="margin-left: -7rem; cursor:pointer" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-three-dots-vertical" viewBox="0 0 16 16">
+                            <path d="M9.5 13a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0zm0-5a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0zm0-5a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0z"/>
+                        </svg>
+                    </div>
+                    <h2>New super fighting planes</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores iure provident aspernatur laborum ut dolor, officiis voluptatem commodi consequuntur beatae!</p>
+    
+                    <hr>
+    
+                    <div class="comments" style="padding-top: 15px;">   
+                         
+                     <div style="display: flex; width: 48%;">
+                         <p>0 views</p>
+                         <p>0 comments</p>
+                     </div>
+ 
+                     <div style="margin-left: 9rem;">
+                         <p>6</p>
+                         <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" style="color:red;cursor:pointer" class="bi bi-heart" viewBox="0 0 16 16">
+                             <path d="m8 2.748-.717-.737C5.6.281 2.514.878 1.4 3.053c-.523 1.023-.641 2.5.314 4.385.92 1.815 2.834 3.989 6.286 6.357 3.452-2.368 5.365-4.542 6.286-6.357.955-1.886.838-3.362.314-4.385C13.486.878 10.4.28 8.717 2.01L8 2.748zM8 15C-7.333 4.868 3.279-3.04 7.824 1.143c.06.055.119.112.176.171a3.12 3.12 0 0 1 .176-.17C12.72-3.042 23.333 4.867 8 15z"/>
+                         </svg>
+                     </div>
+                    </div>
+                </div>
+             </div>
+
+
+             <h2 class="title" id="entertainment">Entertainment</h2>
+
+             <div class="card">
+                <img src="./images/festival.jpg" alt="protests1">
+                <div class="cont">
+                    <div class="div1">
+                        <div style="display: flex; flex-direction:row;width: 15rem;">
+                             <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-person-fill" viewBox="0 0 16 16">
+                                 <path d="M3 14s-1 0-1-1 1-4 6-4 6 3 6 4-1 1-1 1H3Zm5-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6Z"/>
+                             </svg>
+                             <p>Mar 22 . 1 min</p>
+                        </div>
+ 
+                        <svg style="margin-left: -7rem; cursor:pointer" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-three-dots-vertical" viewBox="0 0 16 16">
+                            <path d="M9.5 13a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0zm0-5a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0zm0-5a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0z"/>
+                        </svg>
+                    </div>
+                    <h2>Los Angeles festival again</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores iure provident aspernatur laborum ut dolor, officiis voluptatem commodi consequuntur beatae!</p>
+    
+                    <hr>
+    
+                    <div class="comments" style="padding-top: 15px;">   
+                         
+                     <div style="display: flex; width: 48%;">
+                         <p>0 views</p>
+                         <p>0 comments</p>
+                     </div>
+ 
+                     <div style="margin-left: 9rem;">
+                         <p>6</p>
+                         <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" style="color:red;cursor:pointer" class="bi bi-heart" viewBox="0 0 16 16">
+                             <path d="m8 2.748-.717-.737C5.6.281 2.514.878 1.4 3.053c-.523 1.023-.641 2.5.314 4.385.92 1.815 2.834 3.989 6.286 6.357 3.452-2.368 5.365-4.542 6.286-6.357.955-1.886.838-3.362.314-4.385C13.486.878 10.4.28 8.717 2.01L8 2.748zM8 15C-7.333 4.868 3.279-3.04 7.824 1.143c.06.055.119.112.176.171a3.12 3.12 0 0 1 .176-.17C12.72-3.042 23.333 4.867 8 15z"/>
+                         </svg>
+                     </div>
+                    </div>
+                </div>
+             </div>
+
+
+             <div class="card">
+                <img src="./images/musician.jpg" alt="protests1">
+                <div class="cont">
+                    <div class="div1">
+                        <div style="display: flex; flex-direction:row;width: 15rem;">
+                             <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-person-fill" viewBox="0 0 16 16">
+                                 <path d="M3 14s-1 0-1-1 1-4 6-4 6 3 6 4-1 1-1 1H3Zm5-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6Z"/>
+                             </svg>
+                             <p>Mar 22 . 1 min</p>
+                        </div>
+ 
+                        <svg style="margin-left: -7rem; cursor:pointer" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-three-dots-vertical" viewBox="0 0 16 16">
+                            <path d="M9.5 13a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0zm0-5a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0zm0-5a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0z"/>
+                        </svg>
+                    </div>
+                    <h2>The famous musician</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores iure provident aspernatur laborum ut dolor, officiis voluptatem commodi consequuntur beatae!</p>
+    
+                    <hr>
+    
+                    <div class="comments" style="padding-top: 15px;">   
+                         
+                     <div style="display: flex; width: 48%;">
+                         <p>0 views</p>
+                         <p>0 comments</p>
+                     </div>
+ 
+                     <div style="margin-left: 9rem;">
+                         <p>6</p>
+                         <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" style="color:red;cursor:pointer" class="bi bi-heart" viewBox="0 0 16 16">
+                             <path d="m8 2.748-.717-.737C5.6.281 2.514.878 1.4 3.053c-.523 1.023-.641 2.5.314 4.385.92 1.815 2.834 3.989 6.286 6.357 3.452-2.368 5.365-4.542 6.286-6.357.955-1.886.838-3.362.314-4.385C13.486.878 10.4.28 8.717 2.01L8 2.748zM8 15C-7.333 4.868 3.279-3.04 7.824 1.143c.06.055.119.112.176.171a3.12 3.12 0 0 1 .176-.17C12.72-3.042 23.333 4.867 8 15z"/>
+                         </svg>
+                     </div>
+                    </div>
+                </div>
+             </div>
+
+             <h2 class="title">Sports</h2>
+
+             <div class="card">
+                <img src="./images/rugby.jpg" alt="protests1">
+                <div class="cont">
+                    <div class="div1">
+                        <div style="display: flex; flex-direction:row;width: 15rem;">
+                             <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-person-fill" viewBox="0 0 16 16">
+                                 <path d="M3 14s-1 0-1-1 1-4 6-4 6 3 6 4-1 1-1 1H3Zm5-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6Z"/>
+                             </svg>
+                             <p>Mar 22 . 1 min</p>
+                        </div>
+ 
+                        <svg style="margin-left: -7rem; cursor:pointer" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-three-dots-vertical" viewBox="0 0 16 16">
+                            <path d="M9.5 13a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0zm0-5a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0zm0-5a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0z"/>
+                        </svg>
+                    </div>
+                    <h2>Rugby</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores iure provident aspernatur laborum ut dolor, officiis voluptatem commodi consequuntur beatae!</p>
+    
+                    <hr>
+    
+                    <div class="comments" style="padding-top: 15px;">   
+                         
+                     <div style="display: flex; width: 48%;">
+                         <p>0 views</p>
+                         <p>0 comments</p>
+                     </div>
+ 
+                     <div style="margin-left: 9rem;">
+                         <p>6</p>
+                         <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" style="color:red;cursor:pointer" class="bi bi-heart" viewBox="0 0 16 16">
+                             <path d="m8 2.748-.717-.737C5.6.281 2.514.878 1.4 3.053c-.523 1.023-.641 2.5.314 4.385.92 1.815 2.834 3.989 6.286 6.357 3.452-2.368 5.365-4.542 6.286-6.357.955-1.886.838-3.362.314-4.385C13.486.878 10.4.28 8.717 2.01L8 2.748zM8 15C-7.333 4.868 3.279-3.04 7.824 1.143c.06.055.119.112.176.171a3.12 3.12 0 0 1 .176-.17C12.72-3.042 23.333 4.867 8 15z"/>
+                         </svg>
+                     </div>
+                    </div>
+                </div>
+             </div>
+
+             <div class="card">
+                <img src="./images/basket.jpg" alt="protests1">
+                <div class="cont">
+                    <div class="div1">
+                        <div style="display: flex; flex-direction:row;width: 15rem;">
+                             <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-person-fill" viewBox="0 0 16 16">
+                                 <path d="M3 14s-1 0-1-1 1-4 6-4 6 3 6 4-1 1-1 1H3Zm5-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6Z"/>
+                             </svg>
+                             <p>Mar 22 . 1 min</p>
+                        </div>
+ 
+                        <svg style="margin-left: -7rem; cursor:pointer" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-three-dots-vertical" viewBox="0 0 16 16">
+                            <path d="M9.5 13a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0zm0-5a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0zm0-5a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0z"/>
+                        </svg>
+                    </div>
+                    <h2>New about Lakers</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores iure provident aspernatur laborum ut dolor, officiis voluptatem commodi consequuntur beatae!</p>
+    
+                    <hr>
+    
+                    <div class="comments" style="padding-top: 15px;">   
+                         
+                     <div style="display: flex; width: 48%;">
+                         <p>0 views</p>
+                         <p>0 comments</p>
+                     </div>
+ 
+                     <div style="margin-left: 9rem;">
+                         <p>6</p>
+                         <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" style="color:red;cursor:pointer" class="bi bi-heart" viewBox="0 0 16 16">
+                             <path d="m8 2.748-.717-.737C5.6.281 2.514.878 1.4 3.053c-.523 1.023-.641 2.5.314 4.385.92 1.815 2.834 3.989 6.286 6.357 3.452-2.368 5.365-4.542 6.286-6.357.955-1.886.838-3.362.314-4.385C13.486.878 10.4.28 8.717 2.01L8 2.748zM8 15C-7.333 4.868 3.279-3.04 7.824 1.143c.06.055.119.112.176.171a3.12 3.12 0 0 1 .176-.17C12.72-3.042 23.333 4.867 8 15z"/>
+                         </svg>
+                     </div>
+                    </div>
+                </div>
+             </div>
+
+
+             <h2 class="title" id="health">Health</h2>
+
+             <div class="card">
+                <img src="./images/hos.jpeg" alt="protests1">
+                <div class="cont">
+                    <div class="div1">
+                        <div style="display: flex; flex-direction:row;width: 15rem;">
+                             <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-person-fill" viewBox="0 0 16 16">
+                                 <path d="M3 14s-1 0-1-1 1-4 6-4 6 3 6 4-1 1-1 1H3Zm5-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6Z"/>
+                             </svg>
+                             <p>Mar 22 . 1 min</p>
+                        </div>
+ 
+                        <svg style="margin-left: -7rem; cursor:pointer" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-three-dots-vertical" viewBox="0 0 16 16">
+                            <path d="M9.5 13a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0zm0-5a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0zm0-5a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0z"/>
+                        </svg>
+                    </div>
+                    <h2>Health new issues</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores iure provident aspernatur laborum ut dolor, officiis voluptatem commodi consequuntur beatae!</p>
+    
+                    <hr>
+    
+                    <div class="comments" style="padding-top: 15px;">   
+                         
+                     <div style="display: flex; width: 48%;">
+                         <p>0 views</p>
+                         <p>0 comments</p>
+                     </div>
+ 
+                     <div style="margin-left: 9rem;">
+                         <p>6</p>
+                         <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" style="color:red;cursor:pointer" class="bi bi-heart" viewBox="0 0 16 16">
+                             <path d="m8 2.748-.717-.737C5.6.281 2.514.878 1.4 3.053c-.523 1.023-.641 2.5.314 4.385.92 1.815 2.834 3.989 6.286 6.357 3.452-2.368 5.365-4.542 6.286-6.357.955-1.886.838-3.362.314-4.385C13.486.878 10.4.28 8.717 2.01L8 2.748zM8 15C-7.333 4.868 3.279-3.04 7.824 1.143c.06.055.119.112.176.171a3.12 3.12 0 0 1 .176-.17C12.72-3.042 23.333 4.867 8 15z"/>
+                         </svg>
+                     </div>
+                    </div>
+                </div>
+             </div>
+
+             <div class="card">
+                <img src="./images/heart.jpg" alt="protests1">
+                <div class="cont">
+                    <div class="div1">
+                        <div style="display: flex; flex-direction:row;width: 15rem;">
+                             <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-person-fill" viewBox="0 0 16 16">
+                                 <path d="M3 14s-1 0-1-1 1-4 6-4 6 3 6 4-1 1-1 1H3Zm5-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6Z"/>
+                             </svg>
+                             <p>Mar 22 . 1 min</p>
+                        </div>
+ 
+                        <svg style="margin-left: -7rem; cursor:pointer" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-three-dots-vertical" viewBox="0 0 16 16">
+                            <path d="M9.5 13a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0zm0-5a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0zm0-5a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0z"/>
+                        </svg>
+                    </div>
+                    <h2>Heart health</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores iure provident aspernatur laborum ut dolor, officiis voluptatem commodi consequuntur beatae!</p>
+    
+                    <hr>
+    
+                    <div class="comments" style="padding-top: 15px;">   
+                         
+                     <div style="display: flex; width: 48%;">
+                         <p>0 views</p>
+                         <p>0 comments</p>
+                     </div>
+ 
+                     <div style="margin-left: 9rem;">
+                         <p>6</p>
+                         <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" style="color:red;cursor:pointer" class="bi bi-heart" viewBox="0 0 16 16">
+                             <path d="m8 2.748-.717-.737C5.6.281 2.514.878 1.4 3.053c-.523 1.023-.641 2.5.314 4.385.92 1.815 2.834 3.989 6.286 6.357 3.452-2.368 5.365-4.542 6.286-6.357.955-1.886.838-3.362.314-4.385C13.486.878 10.4.28 8.717 2.01L8 2.748zM8 15C-7.333 4.868 3.279-3.04 7.824 1.143c.06.055.119.112.176.171a3.12 3.12 0 0 1 .176-.17C12.72-3.042 23.333 4.867 8 15z"/>
+                         </svg>
+                     </div>
+                    </div>
+                </div>
+             </div>
+
+
+             <h2 class="title" id="education">Education</h2>
+
+             <div class="card">
+                <img src="./images/students.jpg" alt="protests1">
+                <div class="cont">
+                    <div class="div1">
+                        <div style="display: flex; flex-direction:row;width: 15rem;">
+                             <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-person-fill" viewBox="0 0 16 16">
+                                 <path d="M3 14s-1 0-1-1 1-4 6-4 6 3 6 4-1 1-1 1H3Zm5-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6Z"/>
+                             </svg>
+                             <p>Mar 22 . 1 min</p>
+                        </div>
+ 
+                        <svg style="margin-left: -7rem; cursor:pointer" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-three-dots-vertical" viewBox="0 0 16 16">
+                            <path d="M9.5 13a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0zm0-5a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0zm0-5a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0z"/>
+                        </svg>
+                    </div>
+                    <h2>New academic year</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores iure provident aspernatur laborum ut dolor, officiis voluptatem commodi consequuntur beatae!</p>
+    
+                    <hr>
+    
+                    <div class="comments" style="padding-top: 15px;">   
+                         
+                     <div style="display: flex; width: 48%;">
+                         <p>0 views</p>
+                         <p>0 comments</p>
+                     </div>
+ 
+                     <div style="margin-left: 9rem;">
+                         <p>6</p>
+                         <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" style="color:red;cursor:pointer" class="bi bi-heart" viewBox="0 0 16 16">
+                             <path d="m8 2.748-.717-.737C5.6.281 2.514.878 1.4 3.053c-.523 1.023-.641 2.5.314 4.385.92 1.815 2.834 3.989 6.286 6.357 3.452-2.368 5.365-4.542 6.286-6.357.955-1.886.838-3.362.314-4.385C13.486.878 10.4.28 8.717 2.01L8 2.748zM8 15C-7.333 4.868 3.279-3.04 7.824 1.143c.06.055.119.112.176.171a3.12 3.12 0 0 1 .176-.17C12.72-3.042 23.333 4.867 8 15z"/>
+                         </svg>
+                     </div>
+                    </div>
+                </div>
+             </div>
+
+             <div class="card">
+                <img src="./images/cong.jpeg" alt="protests1">
+                <div class="cont">
+                    <div class="div1">
+                        <div style="display: flex; flex-direction:row;width: 15rem;">
+                             <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-person-fill" viewBox="0 0 16 16">
+                                 <path d="M3 14s-1 0-1-1 1-4 6-4 6 3 6 4-1 1-1 1H3Zm5-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6Z"/>
+                             </svg>
+                             <p>Mar 22 . 1 min</p>
+                        </div>
+ 
+                        <svg style="margin-left: -7rem; cursor:pointer" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-three-dots-vertical" viewBox="0 0 16 16">
+                            <path d="M9.5 13a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0zm0-5a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0zm0-5a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0z"/>
+                        </svg>
+                    </div>
+                    <h2>Problems facing graduates</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores iure provident aspernatur laborum ut dolor, officiis voluptatem commodi consequuntur beatae!</p>
+    
+                    <hr>
+    
+                    <div class="comments" style="padding-top: 15px;">   
+                         
+                     <div style="display: flex; width: 48%;">
+                         <p>0 views</p>
+                         <p>0 comments</p>
+                     </div>
+ 
+                     <div style="margin-left: 9rem;">
+                         <p>6</p>
+                         <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" style="color:red;cursor:pointer" class="bi bi-heart" viewBox="0 0 16 16">
+                             <path d="m8 2.748-.717-.737C5.6.281 2.514.878 1.4 3.053c-.523 1.023-.641 2.5.314 4.385.92 1.815 2.834 3.989 6.286 6.357 3.452-2.368 5.365-4.542 6.286-6.357.955-1.886.838-3.362.314-4.385C13.486.878 10.4.28 8.717 2.01L8 2.748zM8 15C-7.333 4.868 3.279-3.04 7.824 1.143c.06.055.119.112.176.171a3.12 3.12 0 0 1 .176-.17C12.72-3.042 23.333 4.867 8 15z"/>
+                         </svg>
+                     </div>
+                    </div>
+                </div>
+             </div>
+            
+             </div>
+          </div>
+       </div>
+
+    </div>
+</body>
+</html>
